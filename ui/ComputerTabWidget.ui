@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <widget class="QWidget" name="generalTab">
+   <attribute name="title">
+    <string>General</string>
+   </attribute>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>48</horstretch>
+        <verstretch>48</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Placeholder</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="3">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Computer name (pre-Windows 2000):</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item row="1" column="0" colspan="2">
+       <layout class="QFormLayout" name="formLayout">
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>DNS name:</string>
+          </property>
+          <property name="textFormat">
+           <enum>Qt::AutoText</enum>
+          </property>
+          <property name="openExternalLinks">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="lineEdit_2"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>DC Type:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="lineEdit_3"/>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>Site:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="lineEdit_4"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>Description:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="lineEdit_5"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="2">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>52</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <widget class="QToolButton" name="toolButton">
+      <property name="text">
+       <string>NDTS Settings</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>52</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="6" column="2">
+     <widget class="QDialogButtonBox" name="buttonBox">
+      <property name="standardButtons">
+       <set>QDialogButtonBox::Apply|QDialogButtonBox::Cancel|QDialogButtonBox::Help|QDialogButtonBox::Ok</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="osTab">
+   <attribute name="title">
+    <string>Operating System</string>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
