@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>476</width>
-    <height>435</height>
+    <height>417</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -154,6 +154,31 @@
   <widget class="QWidget" name="osTab">
    <attribute name="title">
     <string>Operating System</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="memberOfTab">
+   <attribute name="title">
+    <string>Member Of</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="delegationTab">
+   <attribute name="title">
+    <string>Delegation</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="locationTab">
+   <attribute name="title">
+    <string>Location</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="managedByTab">
+   <attribute name="title">
+    <string>Managed By</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="dialInTab">
+   <attribute name="title">
+    <string>Dial-in</string>
    </attribute>
   </widget>
  </widget>
