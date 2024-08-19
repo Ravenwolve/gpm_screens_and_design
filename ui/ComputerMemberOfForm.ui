@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>507</width>
-    <height>506</height>
+    <width>515</width>
+    <height>493</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,32 +24,10 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QTableWidget" name="memberOfTableWidget">
+      <widget class="QTableView" name="memberOfTableView">
        <property name="wordWrap">
         <bool>true</bool>
        </property>
-       <property name="columnCount">
-        <number>2</number>
-       </property>
-       <attribute name="horizontalHeaderVisible">
-        <bool>true</bool>
-       </attribute>
-       <attribute name="horizontalHeaderCascadingSectionResizes">
-        <bool>false</bool>
-       </attribute>
-       <attribute name="horizontalHeaderStretchLastSection">
-        <bool>true</bool>
-       </attribute>
-       <column>
-        <property name="text">
-         <string>Name</string>
-        </property>
-       </column>
-       <column>
-        <property name="text">
-         <string>Active Directory Domain Services Folder</string>
-        </property>
-       </column>
       </widget>
      </item>
     </layout>

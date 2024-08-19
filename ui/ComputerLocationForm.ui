@@ -118,22 +118,5 @@
   </layout>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>locationLineEdit</sender>
-   <signal>textChanged(QString)</signal>
-   <receiver>browseToolButton</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>255</x>
-     <y>92</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>470</x>
-     <y>91</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>
