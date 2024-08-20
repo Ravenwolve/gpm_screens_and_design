@@ -6,15 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>485</width>
-    <height>374</height>
+    <width>487</width>
+    <height>459</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
   <layout class="QGridLayout" name="gridLayout_2">
-   <item row="0" column="0" rowspan="5" colspan="2">
+   <item row="0" column="0" colspan="3">
+    <widget class="ComputerMemberOfAddBaseWidget" name="widget" native="true"/>
+   </item>
+   <item row="1" column="0" rowspan="4" colspan="2">
     <widget class="QTabWidget" name="commonQueriesTabWidget">
      <property name="currentIndex">
       <number>0</number>
@@ -100,41 +103,17 @@
      </widget>
     </widget>
    </item>
-   <item row="2" column="2">
-    <widget class="QPushButton" name="findNowButton">
-     <property name="text">
-      <string>Find Now</string>
-     </property>
-    </widget>
-   </item>
-   <item row="5" column="1" colspan="2">
-    <widget class="QDialogButtonBox" name="dialogButtonBox">
-     <property name="standardButtons">
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
-     </property>
-    </widget>
-   </item>
-   <item row="4" column="2">
-    <widget class="QLabel" name="searchIconLabel">
-     <property name="text">
-      <string>Placeholder</string>
-     </property>
-    </widget>
-   </item>
-   <item row="6" column="0" colspan="3">
-    <widget class="QTableView" name="tableView"/>
-   </item>
-   <item row="5" column="0">
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Search results:</string>
-     </property>
-    </widget>
-   </item>
    <item row="1" column="2">
     <widget class="QToolButton" name="columnsToolButton">
      <property name="text">
       <string>Columns</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QPushButton" name="findNowButton">
+     <property name="text">
+      <string>Find Now</string>
      </property>
     </widget>
    </item>
@@ -148,8 +127,40 @@
      </property>
     </widget>
    </item>
+   <item row="4" column="2">
+    <widget class="QLabel" name="searchIconLabel">
+     <property name="text">
+      <string>Placeholder</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Search results:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDialogButtonBox" name="dialogButtonBox">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QTableView" name="tableView"/>
+   </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ComputerMemberOfAddBaseWidget</class>
+   <extends>QWidget</extends>
+   <header>computermemberofaddbasewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>426</width>
-    <height>321</height>
+    <width>423</width>
+    <height>0</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,9 +15,9 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="0" column="0">
-    <widget class="QLabel" name="decriptionLabel">
+    <widget class="QLabel" name="label">
      <property name="text">
-      <string>Select the types of objects you want to find.</string>
+      <string>Select the location you want to search.</string>
      </property>
     </widget>
    </item>
@@ -29,20 +29,20 @@
      <property name="sizeHint" stdset="0">
       <size>
        <width>398</width>
-       <height>19</height>
+       <height>38</height>
       </size>
      </property>
     </spacer>
    </item>
    <item row="2" column="0">
-    <widget class="QLabel" name="objectTypesLabel">
+    <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>Object types:</string>
+      <string>Location:</string>
      </property>
     </widget>
    </item>
    <item row="3" column="0">
-    <widget class="QListView" name="objectTypesListView"/>
+    <widget class="QTreeView" name="treeView"/>
    </item>
    <item row="4" column="0">
     <widget class="QDialogButtonBox" name="dialogButtonBox">

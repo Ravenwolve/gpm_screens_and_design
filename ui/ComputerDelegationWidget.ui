@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>532</width>
-    <height>505</height>
+    <height>0</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -148,36 +148,6 @@
              </widget>
             </widget>
            </item>
-           <item row="1" column="0">
-            <widget class="QTableWidget" name="servicesTableWidget">
-             <property name="columnCount">
-              <number>4</number>
-             </property>
-             <attribute name="horizontalHeaderStretchLastSection">
-              <bool>true</bool>
-             </attribute>
-             <column>
-              <property name="text">
-               <string>Service Type</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>User or Computer</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>Port</string>
-              </property>
-             </column>
-             <column>
-              <property name="text">
-               <string>Service Name</string>
-              </property>
-             </column>
-            </widget>
-           </item>
            <item row="0" column="0">
             <widget class="QLabel" name="servicesLabel">
              <property name="text">
@@ -187,6 +157,9 @@
               <bool>true</bool>
              </property>
             </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QTableView" name="servicesTableView"/>
            </item>
           </layout>
          </item>
