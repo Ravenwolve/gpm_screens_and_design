@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>computerMemberOfAddBaseForm</class>
- <widget class="QWidget" name="computerMemberOfAddBaseForm">
+ <class>entitySelectionBaseWidget</class>
+ <widget class="QWidget" name="entitySelectionBaseWidget">
   <property name="geometry">
    <rect>
     <x>0</x>

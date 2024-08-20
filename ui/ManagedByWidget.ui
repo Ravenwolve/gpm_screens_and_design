@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>512</width>
-    <height>0</height>
+    <height>517</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,12 +16,6 @@
   <layout class="QGridLayout" name="gridLayout_2">
    <item row="0" column="0">
     <layout class="QGridLayout" name="gridLayout">
-     <property name="horizontalSpacing">
-      <number>27</number>
-     </property>
-     <property name="verticalSpacing">
-      <number>10</number>
-     </property>
      <item row="0" column="0">
       <widget class="QLabel" name="nameLabel">
        <property name="text">
@@ -29,17 +23,17 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="1" colspan="3">
+     <item row="0" column="1" colspan="4">
       <widget class="QLineEdit" name="nameLineEdit"/>
      </item>
-     <item row="1" column="1">
+     <item row="1" column="1" colspan="2">
       <widget class="QToolButton" name="changeToolButton">
        <property name="text">
         <string>Change</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="2">
+     <item row="1" column="3">
       <widget class="QPushButton" name="propertiesButton">
        <property name="enabled">
         <bool>false</bool>
@@ -49,7 +43,7 @@
        </property>
       </widget>
      </item>
-     <item row="1" column="3">
+     <item row="1" column="4">
       <widget class="QPushButton" name="clearButton">
        <property name="enabled">
         <bool>false</bool>
@@ -59,105 +53,112 @@
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
+     <item row="2" column="2" colspan="3">
+      <widget class="QCheckBox" name="updateMembershipForGroupCheckBox">
+       <property name="text">
+        <string>Manager can update membership list</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
       <widget class="QLabel" name="officeLabel">
        <property name="text">
         <string>Office:</string>
        </property>
       </widget>
      </item>
-     <item row="2" column="1" colspan="3">
+     <item row="3" column="2">
       <widget class="QLabel" name="officeValueLabel">
        <property name="text">
         <string>Placeholder</string>
        </property>
       </widget>
      </item>
-     <item row="3" column="0">
+     <item row="4" column="0">
       <widget class="QLabel" name="streetLabel">
        <property name="text">
         <string>Street:</string>
        </property>
       </widget>
      </item>
-     <item row="3" column="1" colspan="3">
+     <item row="4" column="2" colspan="3">
       <widget class="QListWidget" name="streetListWidget">
        <property name="enabled">
         <bool>true</bool>
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
+     <item row="5" column="0">
       <widget class="QLabel" name="cityLabel">
        <property name="text">
         <string>City:</string>
        </property>
       </widget>
      </item>
-     <item row="4" column="1" colspan="3">
+     <item row="5" column="2">
       <widget class="QLabel" name="cityValueLabel">
        <property name="text">
         <string>Placeholder</string>
        </property>
       </widget>
      </item>
-     <item row="5" column="0">
+     <item row="6" column="0">
       <widget class="QLabel" name="stateLabel">
        <property name="text">
         <string>State/province:</string>
        </property>
       </widget>
      </item>
-     <item row="5" column="1" colspan="3">
+     <item row="6" column="2">
       <widget class="QLabel" name="stateValueLabel">
        <property name="text">
         <string>Placeholder</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="0">
+     <item row="7" column="0">
       <widget class="QLabel" name="countryLabel">
        <property name="text">
         <string>Country/region:</string>
        </property>
       </widget>
      </item>
-     <item row="6" column="1" colspan="3">
+     <item row="7" column="2">
       <widget class="QLabel" name="countryValueLabel">
        <property name="text">
         <string>Placeholder</string>
        </property>
       </widget>
      </item>
-     <item row="7" column="0" colspan="4">
+     <item row="8" column="0" colspan="5">
       <widget class="Line" name="line">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
       </widget>
      </item>
-     <item row="8" column="0">
+     <item row="9" column="0">
       <widget class="QLabel" name="telephoneLabel">
        <property name="text">
         <string>Telephone number:</string>
        </property>
       </widget>
      </item>
-     <item row="8" column="1" colspan="3">
+     <item row="9" column="2">
       <widget class="QLabel" name="telephoneValueLabel">
        <property name="text">
         <string>Placeholder</string>
        </property>
       </widget>
      </item>
-     <item row="9" column="0">
+     <item row="10" column="0">
       <widget class="QLabel" name="faxLabel">
        <property name="text">
         <string>Fax number:</string>
        </property>
       </widget>
      </item>
-     <item row="9" column="1" colspan="3">
+     <item row="10" column="2">
       <widget class="QLabel" name="faxValueLabel">
        <property name="text">
         <string>Placeholder</string>
