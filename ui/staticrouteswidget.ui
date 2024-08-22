@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>staticRoutesWidget</class>
- <widget class="QWidget" name="staticRoutesWidget">
+ <class>StaticRoutesWidget</class>
+ <widget class="QWidget" name="StaticRoutesWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -41,7 +41,7 @@
        </widget>
       </item>
       <item row="2" column="1">
-       <widget class="QPushButton" name="deleteButton">
+       <widget class="QPushButton" name="deletePushButton">
         <property name="text">
          <string>Delete Route</string>
         </property>

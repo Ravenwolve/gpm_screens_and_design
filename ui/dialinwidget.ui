@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>dialInWidget</class>
- <widget class="QWidget" name="dialInWidget">
+ <class>DialInWidget</class>
+ <widget class="QWidget" name="DialInWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -93,6 +93,9 @@
         <property name="text">
          <string>No Callback</string>
         </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="1" column="0" colspan="2">
@@ -169,6 +172,9 @@
        <widget class="QRadioButton" name="accessControlRadioButton">
         <property name="text">
          <string>Control access through NPS Network Policy</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
         </property>
        </widget>
       </item>

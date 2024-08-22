@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>memberOfCommonWidget</class>
- <widget class="QWidget" name="memberOfCommonWidget">
+ <class>MemberOfCommonWidget</class>
+ <widget class="QWidget" name="MemberOfCommonWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -52,7 +52,7 @@
     </spacer>
    </item>
    <item row="5" column="0" colspan="2">
-    <widget class="QPushButton" name="setPrimaryGroupButton">
+    <widget class="QPushButton" name="setPrimaryGroupPushButton">
      <property name="enabled">
       <bool>false</bool>
      </property>

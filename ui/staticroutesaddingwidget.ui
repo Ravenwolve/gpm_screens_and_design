@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>staticRoutesAddingWidget</class>
- <widget class="QWidget" name="staticRoutesAddingWidget">
+ <class>StaticRoutesAddingWidget</class>
+ <widget class="QWidget" name="StaticRoutesAddingWidget">
   <property name="geometry">
    <rect>
     <x>0</x>

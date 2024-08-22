@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>computerTabWidget</class>
- <widget class="QTabWidget" name="computerTabWidget">
+ <class>GroupTabWidget</class>
+ <widget class="QTabWidget" name="GroupTabWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -14,7 +14,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>1</number>
+   <number>3</number>
   </property>
   <widget class="QWidget" name="generalTab">
    <attribute name="title">
@@ -33,9 +33,9 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="osTab">
+  <widget class="QWidget" name="membersTab">
    <attribute name="title">
-    <string>Operating System</string>
+    <string>Members</string>
    </attribute>
   </widget>
   <widget class="QWidget" name="memberOfTab">
@@ -43,24 +43,9 @@
     <string>Member Of</string>
    </attribute>
   </widget>
-  <widget class="QWidget" name="delegationTab">
-   <attribute name="title">
-    <string>Delegation</string>
-   </attribute>
-  </widget>
-  <widget class="QWidget" name="locationTab">
-   <attribute name="title">
-    <string>Location</string>
-   </attribute>
-  </widget>
   <widget class="QWidget" name="managedByTab">
    <attribute name="title">
     <string>Managed By</string>
-   </attribute>
-  </widget>
-  <widget class="QWidget" name="dialInTab">
-   <attribute name="title">
-    <string>Dial-in</string>
    </attribute>
   </widget>
  </widget>

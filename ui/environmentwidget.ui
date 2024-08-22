@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>environmentWidget</class>
- <widget class="QWidget" name="environmentWidget">
+ <class>EnvironmentWidget</class>
+ <widget class="QWidget" name="EnvironmentWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -37,6 +37,9 @@
         </property>
         <property name="checkable">
          <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
         </property>
         <layout class="QGridLayout" name="gridLayout_4">
          <item row="0" column="0">
@@ -76,6 +79,9 @@
         <property name="text">
          <string>Connect client drives at logon</string>
         </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="1" column="0">
@@ -83,12 +89,18 @@
         <property name="text">
          <string>Connect client printers at logon</string>
         </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
       <item row="2" column="0">
        <widget class="QCheckBox" name="defaultCheckBox">
         <property name="text">
          <string>Default to main client printer</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
         </property>
        </widget>
       </item>

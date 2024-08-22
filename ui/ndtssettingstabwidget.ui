@@ -53,7 +53,18 @@
      </widget>
     </item>
     <item row="3" column="1">
-     <widget class="QComboBox" name="comboBox"/>
+     <widget class="QComboBox" name="comboBox">
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Default Query Policy</string>
+       </property>
+      </item>
+     </widget>
     </item>
     <item row="4" column="0">
      <widget class="QLabel" name="dnsAliasLabel">
@@ -63,7 +74,11 @@
      </widget>
     </item>
     <item row="4" column="1">
-     <widget class="QLineEdit" name="dnsAliasLineEdit"/>
+     <widget class="QLineEdit" name="dnsAliasLineEdit">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
     </item>
     <item row="5" column="0">
      <widget class="QCheckBox" name="globalCatalogCheckBox">

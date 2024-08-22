@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>accountWidget</class>
- <widget class="QWidget" name="accountWidget">
+ <class>AccountWidget</class>
+ <widget class="QWidget" name="AccountWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -35,7 +35,11 @@
     </widget>
    </item>
    <item row="3" column="0" colspan="2">
-    <widget class="QLineEdit" name="userLogonNameRootPreLineEdit"/>
+    <widget class="QLineEdit" name="userLogonNameRootPreLineEdit">
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
    </item>
    <item row="3" column="2">
     <widget class="QLineEdit" name="userLogonNamePreLineEdit"/>
@@ -62,7 +66,7 @@
     </widget>
    </item>
    <item row="7" column="0" colspan="3">
-    <widget class="QScrollArea" name="scrollArea">
+    <widget class="QScrollArea" name="optionsScrollArea">
      <property name="widgetResizable">
       <bool>true</bool>
      </property>
@@ -70,7 +74,7 @@
       <property name="geometry">
        <rect>
         <x>0</x>
-        <y>-234</y>
+        <y>0</y>
         <width>424</width>
         <height>359</height>
        </rect>
@@ -208,7 +212,11 @@
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QDateEdit" name="expiresDateEdit"/>
+       <widget class="QDateEdit" name="expiresDateEdit">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+       </widget>
       </item>
      </layout>
     </widget>
@@ -216,5 +224,22 @@
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>expiresRadioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>expiresDateEdit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>123</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

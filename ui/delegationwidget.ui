@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>delegationWidget</class>
- <widget class="QWidget" name="delegationWidget">
+ <class>DelegationWidget</class>
+ <widget class="QWidget" name="DelegationWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -54,25 +54,6 @@
         </property>
        </widget>
       </item>
-      <item row="3" column="0">
-       <spacer name="horizontalSpacer_2">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeType">
-         <enum>QSizePolicy::Fixed</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>18</width>
-          <height>268</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
       <item row="3" column="1">
        <widget class="QGroupBox" name="trustSpecifiedGroupBox">
         <property name="enabled">
@@ -90,7 +71,7 @@
         <property name="checkable">
          <bool>false</bool>
         </property>
-        <layout class="QGridLayout" name="gridLayout_2">
+        <layout class="QGridLayout" name="gridLayout">
          <item row="0" column="0">
           <widget class="QRadioButton" name="useKerberosOnlyRadioButton">
            <property name="text">
@@ -111,57 +92,45 @@
            </property>
           </widget>
          </item>
-         <item row="2" column="0">
-          <layout class="QGridLayout" name="gridLayout">
-           <item row="2" column="0">
-            <widget class="QSplitter" name="splitter_3">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <widget class="QCheckBox" name="expandedCheckBox">
-              <property name="text">
-               <string>Expanded</string>
-              </property>
-             </widget>
-             <widget class="QSplitter" name="splitter">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <widget class="QSplitter" name="splitter_2">
-               <property name="orientation">
-                <enum>Qt::Horizontal</enum>
-               </property>
-               <widget class="QPushButton" name="removeButton">
-                <property name="enabled">
-                 <bool>false</bool>
-                </property>
-                <property name="text">
-                 <string>Remove</string>
-                </property>
-               </widget>
-               <widget class="QToolButton" name="addToolButton">
-                <property name="text">
-                 <string>Add</string>
-                </property>
-               </widget>
-              </widget>
-             </widget>
-            </widget>
-           </item>
-           <item row="0" column="0">
-            <widget class="QLabel" name="servicesLabel">
-             <property name="text">
-              <string>Services to which this account can present delegated credentials:</string>
-             </property>
-             <property name="wordWrap">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
-           <item row="1" column="0">
-            <widget class="QTableView" name="servicesTableView"/>
-           </item>
-          </layout>
+         <item row="2" column="0" colspan="2">
+          <widget class="QLabel" name="servicesLabel">
+           <property name="text">
+            <string>Services to which this account can present delegated credentials:</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0" colspan="2">
+          <widget class="QTableView" name="servicesTableView"/>
+         </item>
+         <item row="4" column="0">
+          <widget class="QCheckBox" name="expandedCheckBox">
+           <property name="text">
+            <string>Expanded</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QSplitter" name="splitter">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QToolButton" name="addToolButton">
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="removePushButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="text">
+             <string>Remove</string>
+            </property>
+           </widget>
+          </widget>
          </item>
         </layout>
        </widget>

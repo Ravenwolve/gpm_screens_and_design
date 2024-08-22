@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>MemberOfGroupWidget</class>
+ <widget class="QWidget" name="MemberOfGroupWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -20,7 +20,10 @@
    <item row="1" column="0">
     <widget class="QLabel" name="descriptionLabel">
      <property name="text">
-      <string>Builtin groups cannot be added to other groups.</string>
+      <string>The list displays only groups from the current domain and groups maintained in the Global Catalog, such as universal groups.</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
      </property>
     </widget>
    </item>
